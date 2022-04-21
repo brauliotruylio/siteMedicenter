@@ -133,8 +133,60 @@ nav .active a, nav a:hover {
 }
 
 .horario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 20px;
     padding: 6px;
     border-bottom: 0.5px solid rgb(54, 99, 184);
     font-size: 12px;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+    }
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.widget_bar {
+    width: 60px;
+    height: 4px;
+    background-color:#0079c7;
+    margin-top: 10px;
+}
+
+.departaments {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+.departaments div {
+    padding: 12px;
+    margin: 10px;
+    
+    height: 120px;
+    width: 120px;
+    background-color: #0079c7;
+}
+
+
