@@ -189,4 +189,160 @@ nav .active a, nav a:hover {
     background-color: #0079c7;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex:1;
+    min-width: 300px;
+    margin-right: 25px;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .news_data{
+  display: flex;  
+}
+
+article .news_posted{
+    color: white;
+    background-color: #2b4c99;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments{
+    color: white;
+    background-color: #39aae1;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .photo img{
+    width: 100%;
+    weight: auto;
+    margin-top: 30px;
+}
+
+article .title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 22px;
+}
+
+article .news{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 6px;
+    
+    border-top: 0.5px solid rgb(180, 182, 185);
+    text-decoration:none;
+    font-size: 14px
+}
+
+.icon{
+margin-right:20px;
+   background-color:rgb(183, 184, 183);
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding: 5px;
+
+}
+
+.contato1 {
+    display: flex;
+    flex-direction: row;
+   
+    padding: 6px;
+    
+    border-top: 0.5px solid rgb(180, 182, 185);
+    border-bottom: 0.5px solid rgb(180, 182, 185);
+    text-decoration:none;
+    font-size: 14px
+}
+
+.contato p a{
+    text-decoration: none;
+}
+
+.contato1 p a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #1e1e1e;
+    
+    display:flex;
+    justify-content: center;
+
+}
+
+.footer_menu{
+    display: flex;
+  
+    
+}
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.flexColumn{
+    flex-direction:column;
+}
+.footer_area{
+    display: flex;
+}
+.area{
+  color:#fff;
+  flex: 1;
+
+}
+
+footer .title_footer{
+    color: white;
+    font-size: 22px;
+    
+}
+
+.copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-top: 30px;
+}
+
+.direitos{
+    color: #727171
+   
+}
+
 
