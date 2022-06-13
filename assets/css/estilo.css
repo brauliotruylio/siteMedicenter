@@ -256,7 +256,7 @@ article .news{
 
 .icon{
 margin-right:20px;
-   background-color:rgb(183, 184, 183);
+   background-color:rgb(208, 211, 208);
    margin-top: 5px;
    margin-bottom: 5px;
    padding: 5px;
@@ -269,8 +269,8 @@ margin-right:20px;
    
     padding: 6px;
     
-    border-top: 0.5px solid rgb(180, 182, 185);
-    border-bottom: 0.5px solid rgb(180, 182, 185);
+    border-top: 0.5px solid rgb(208, 211, 208);
+    border-bottom: 0.5px solid rgb(180, 211, 208);
     text-decoration:none;
     font-size: 14px
 }
@@ -329,6 +329,8 @@ footer{
 footer .title_footer{
     color: white;
     font-size: 22px;
+    display: flex;
+    ;
     
 }
 
@@ -344,5 +346,4 @@ footer .title_footer{
     color: #727171
    
 }
-
 
